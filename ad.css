@@ -1,0 +1,89 @@
+body{  
+                  
+        margin-top: 100px;  
+        margin-bottom: 100px;  
+        margin-right: 150px;  
+        margin-left: 80px;  
+        background-image: url("bg1.jpg");   
+        color: white;  
+        font-family: verdana;  
+      
+                      }  
+ h1 {  
+        color: white;  
+        font-family: verdana;  
+        font-size: 4vw;  
+    } 
+ button{
+  margin:auto;
+  display:block;
+}
+button{
+  padding:16px 32px;
+  font-family:helvetica;
+  font-size:16px;
+  font-weight:100;
+  color:#fff;
+  background: #587286;
+  border:0;
+  font-weight:100;
+}
+button:hover{
+  background: #3B5C76;
+}
+.square{
+	
+	background-color:none;
+	border: groove;
+	float: center;
+  position: absolute;
+  left: 20%; margin-left: 25px; width: 50%; height: 50%;
+	 
+}
+.in{
+  border: none;
+  margin-left: 20px;
+  width: 50%;
+  height: 100%;
+}
+.a1{
+  color: indigo; font-size: 3vw;
+}
+.a2{
+  float: center; padding-left: 20%; color: white;  
+        font-family: verdana; font-size: 2vw;
+}
+@media (max-width: 749px) {
+  h1{
+    text-align: center;
+    padding-top: 50%;
+    font-size:5vw; 
+    float: center;
+    padding-left: 50%;
+    padding-right: 50%;
+    position: relative;
+  }
+  .square{
+    height: 30%;
+    width: 60%;
+    margin-left: 4vw;
+  }
+  button{
+    padding: 10px 10px;
+    font-size: 10px;
+  }
+  .a1{
+    font-size: 4vw;
+
+  }
+  .a2{
+    font-size: 4vw;
+    float: center;
+    padding-left: 10%;
+  }
+  .in{
+    width: 150px;
+  }
+
+}
+
